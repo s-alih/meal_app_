@@ -29,6 +29,18 @@ class _TabsScreenState extends State<TabsScreen> {
       _selectedPageIndex = index;
     });
   }
+  void printName(){
+
+    print('salippu');
+
+    print('onji');
+    print("bapputty");
+
+    print("future millionaires");
+  }
+  void newBranch(){
+    print('new branch added');
+  }
 
   @override
   Widget build(BuildContext context) {
