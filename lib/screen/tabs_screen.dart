@@ -32,10 +32,14 @@ class _TabsScreenState extends State<TabsScreen> {
   void printName(){
 
     print('salippu');
+
     print('onji');
     print("bapputty");
 
     print("future millionaires");
+  }
+  void newBranch(){
+    print('new branch added');
   }
 
   @override
