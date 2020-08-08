@@ -54,7 +54,7 @@ class MealDetailScreen extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
             ),
-            buildSectionTitle(context, 'Ingredients'),
+            buildSectionTitle(context, 'Ingredients ar changed'),
             buildContainer(
               ListView.builder(
                 itemBuilder: (ctx, index) => Card(
@@ -100,5 +100,3 @@ class MealDetailScreen extends StatelessWidget {
     );
   }
 }
-
-
